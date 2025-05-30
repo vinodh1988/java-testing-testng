@@ -1,0 +1,77 @@
+/* 
+Collections
+*/
+
+Collections is an inbuilt framework in Java
+ that provides a set of classes and interfaces for working with groups of objects.
+  It includes data structures
+ like lists, sets, and maps, as well as algorithms for sorting and searching.
+ 
+ it is available in the java.util package.
+ 
+1. Mutable vs Immutable
+------------------------
+
+   Mutable Classes:
+    Classes for which instance members can be changed after the object is created.
+    
+    Ex: All collections classes in Java are mutable.
+   
+   Immutable Classes:
+    Classes for which instance members cannot be changed after the object is created.
+    If you want to change the value, you have to create a new object.
+    
+    example: String is an immutable class.
+   
+   
+   
+String ---------> "Rakesh" --> Memory location  -- hashcode1
+                  "Rakesh krishna" ---- Different Memory location - hashcode2
+
+
+Mutable -------------> new Mutable("Rakesh");  - Hashcode1
+                                    name
+					?? name is modifiable the value of name is modifiable
+					name --> Kumar -Hashcode1
+					
+Prominence of Object class
+----------------------------
+
+In java,
+whether you inherit or not
+All the classes implicitly inherit from the Object class.
+Object class is part of the java.lang package.
+
+In short, Every class in Java is a subclass of the Object class.
+
+
+Generics
+----------
+
+
+Collections
+------------
+
+     List
+        - List is linear collection of elements.
+        - List is generic in nature.
+        - It allows duplicate elements.
+        - It maintains the insertion order of elements.
+        - It allows null elements.
+        - It is index based. (accessed by index)
+        - Insertions and deletions are allowed at any position.
+        
+        List is an interface in Java that extends the Collection interface.
+        List provides methods to manipulate the elements in a sequential manner.
+        
+        the implementations of the List interface include:
+        - ArrayList
+        - LinkedList
+        
+    
+    
+     Set
+    
+    
+    
+     Map

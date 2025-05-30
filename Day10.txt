@@ -1,0 +1,90 @@
+ollections
+------------
+
+     List
+        - List is linear collection of elements.
+        - List is generic in nature.
+        - It allows duplicate elements.
+        - It maintains the insertion order of elements.
+        - It allows null elements.
+        - It is index based. (accessed by index)
+        - Insertions and deletions are allowed at any position.
+        
+        List is an interface in Java that extends the Collection interface.
+        List provides methods to manipulate the elements in a sequential manner.
+        
+        the implementations of the List interface include:
+        - ArrayList
+        - LinkedList
+        
+    
+    
+     Set
+       
+           - Set is a collection that does not allow duplicate elements.
+            - It does not maintain the insertion order of elements (unordered).
+            - It allows null elements, but only one null element is allowed.
+            - It is not index based (elements cannot be accessed by index).
+            
+            Set is an interface in Java that extends the Collection interface.
+            The implementations of the Set interface include:
+            - HashSet
+            - LinkedHashSet
+            - TreeSet
+            
+           HashSet
+           -------
+           - HashSet is a collection that uses a hash table for storage.
+           - It allows null elements(only once).
+           - It does not maintain the order of elements.
+           - It does not allow duplicate elements.
+           
+           TreeSet
+           --------
+           - TreeSet is a collection that uses a red-black tree for storage.
+           - It does not allow null elements.
+           - It maintains the natural ordering of elements or a custom comparator(sorted).
+           - It does not allow duplicate elements.
+           
+    how compare to method logic works in TreeSet?
+      when two objects are equal according to the compareTo method,you
+      return 0.
+      when the first object is less than the second object, you return a negative integer.
+      when the first object is greater than the second object, you return a positive integer.
+     Map
+     -----
+      Map is a collection that stores key-value pairs.
+      - It does not allow duplicate keys.
+      - It allows duplicate values.
+      - It does not maintain the insertion order of elements (unordered).
+      - It allows null keys and values(null key only once).
+      - It is not index based (elements cannot be accessed by index).	
+      Implementations of the Map interface include:
+      - HashMap
+      - TreeMap
+      
+      HashMap
+      ---------
+      - HashMap is a collection that uses a hash table for storage.
+      - It allows null keys and values (only one null key).
+      - It does not maintain the order of elements.
+      - It does not allow duplicate keys.
+      - It allows duplicate values.
+     
+     TreeMap
+     --------
+         - TreeMap is a collection that uses a red-black tree for storage.
+        - It does not allow null keys.
+        - It maintains the natural ordering of keys or a custom comparator(sorted).
+        - It does not allow duplicate keys.
+        - It allows duplicate values.
+        
+        How compareTo method logic works in TreeMap?
+            when two objects are equal according to the compareTo method,you
+            return 0.
+            when the first object is less than the second object, you return a negative integer.
+            when the first object is greater than the second object, you return a positive integer.
+            
+      
+     
+     
