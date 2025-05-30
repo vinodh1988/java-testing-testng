@@ -25,10 +25,11 @@ public class Kid implements Comparable<Kid> {
    
    @Override
 public int compareTo(Kid o) {
-	if(this.name.equals(o.name)) {
+	   
+	if(this.name.substring(1).equals(o.name.substring(1))) {
 		return 0;
 	} 
-	else if(this.name.compareTo(o.name) < 0) {
+	else if(this.name.substring(1).compareTo(o.name.substring(1)) < 0) {
 		return -1;
 	} else {
 		return 1;

@@ -1,0 +1,19 @@
+If you have 
+1. logical mistakes in your code
+2. Software/hardware issues
+3. Network issues
+
+Runtime problems.
+
+These runtime problemes caused because of the above reasons.
+it is called exception.
+
+Exception if unhndled, it will cause the program to crash.
+
+to handle the exception, java offers five keywords.
+
+`  try, catch, finally, throw, throws
+
+In java the super class of all exceptions is Exception.
+
+for Exception the super class is Throwable.
